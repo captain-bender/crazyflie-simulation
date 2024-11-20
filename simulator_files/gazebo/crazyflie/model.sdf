@@ -204,7 +204,7 @@ Copyright (c) 2024 Bitcraze
       <motorType>velocity</motorType>
     </plugin>
     <plugin
-      filename="glibignition-gazebo-multicopter-motor-model-system"
+      filename="libignition-gazebo-multicopter-motor-model-system"
       name="ignition::gazebo::systems::MulticopterMotorModel">
       <robotNamespace>crazyflie</robotNamespace>
       <jointName>crazyflie/m3_joint</jointName>
