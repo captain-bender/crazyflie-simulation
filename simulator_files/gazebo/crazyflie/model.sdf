@@ -183,6 +183,7 @@ Copyright (c) 2024 Bitcraze
       <rollingMomentCoefficient>0.0000001</rollingMomentCoefficient>
       <rotorVelocitySlowdownSim>20</rotorVelocitySlowdownSim>
       <actuator_number>0</actuator_number>
+      <motorNumber>0</motorNumber>
       <motorType>velocity</motorType>
     </plugin>
     <plugin
@@ -199,6 +200,7 @@ Copyright (c) 2024 Bitcraze
       <rollingMomentCoefficient>0.0000001</rollingMomentCoefficient>
       <rotorVelocitySlowdownSim>20</rotorVelocitySlowdownSim>
       <actuator_number>1</actuator_number>
+      <motorNumber>1</motorNumber>
       <motorType>velocity</motorType>
     </plugin>
     <plugin
@@ -215,6 +217,7 @@ Copyright (c) 2024 Bitcraze
       <rollingMomentCoefficient>0.0000001</rollingMomentCoefficient>
       <rotorVelocitySlowdownSim>20</rotorVelocitySlowdownSim>
       <actuator_number>2</actuator_number>
+      <motorNumber>2</motorNumber>
       <motorType>velocity</motorType>
     </plugin>
     <plugin
@@ -231,6 +234,7 @@ Copyright (c) 2024 Bitcraze
       <rollingMomentCoefficient>0.0000001</rollingMomentCoefficient>
       <rotorVelocitySlowdownSim>20</rotorVelocitySlowdownSim>
       <actuator_number>3</actuator_number>
+      <motorNumber>3</motorNumber>
       <motorType>velocity</motorType>
     </plugin>
     <plugin
