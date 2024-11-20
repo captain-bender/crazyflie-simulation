@@ -170,8 +170,8 @@ Copyright (c) 2024 Bitcraze
       </axis>
     </joint>
     <plugin
-      filename="gz-sim-multicopter-motor-model-system"
-      name="gz::sim::systems::MulticopterMotorModel">
+      filename="libignition-gazebo-multicopter-motor-model-system"
+      name="ignition::gazebo::systems::MulticopterMotorModel">
       <robotNamespace>crazyflie</robotNamespace>
       <jointName>crazyflie/m1_joint</jointName>
       <linkName>crazyflie/m1_prop</linkName>
@@ -187,8 +187,8 @@ Copyright (c) 2024 Bitcraze
       <motorType>velocity</motorType>
     </plugin>
     <plugin
-      filename="gz-sim-multicopter-motor-model-system"
-      name="gz::sim::systems::MulticopterMotorModel">
+      filename="libignition-gazebo-multicopter-motor-model-system"
+      name="ignition::gazebo::systems::MulticopterMotorModel">
       <robotNamespace>crazyflie</robotNamespace>
       <jointName>crazyflie/m2_joint</jointName>
       <linkName>crazyflie/m2_prop</linkName>
@@ -204,8 +204,8 @@ Copyright (c) 2024 Bitcraze
       <motorType>velocity</motorType>
     </plugin>
     <plugin
-      filename="gz-sim-multicopter-motor-model-system"
-      name="gz::sim::systems::MulticopterMotorModel">
+      filename="glibignition-gazebo-multicopter-motor-model-system"
+      name="ignition::gazebo::systems::MulticopterMotorModel">
       <robotNamespace>crazyflie</robotNamespace>
       <jointName>crazyflie/m3_joint</jointName>
       <linkName>crazyflie/m3_prop</linkName>
@@ -221,8 +221,8 @@ Copyright (c) 2024 Bitcraze
       <motorType>velocity</motorType>
     </plugin>
     <plugin
-      filename="gz-sim-multicopter-motor-model-system"
-      name="gz::sim::systems::MulticopterMotorModel">
+      filename="libignition-gazebo-multicopter-motor-model-system"
+      name="ignition::gazebo::systems::MulticopterMotorModel">
       <robotNamespace>crazyflie</robotNamespace>
       <jointName>crazyflie/m4_joint</jointName>
       <linkName>crazyflie/m4_prop</linkName>
@@ -238,8 +238,8 @@ Copyright (c) 2024 Bitcraze
       <motorType>velocity</motorType>
     </plugin>
     <plugin
-      filename="gz-sim-multicopter-control-system"
-      name="gz::sim::systems::MulticopterVelocityControl">
+      filename="libignition-gazebo-multicopter-control-system"
+      name="ignition::gazebo::systems::MulticopterVelocityControl">
       <robotNamespace>crazyflie</robotNamespace>
       <commandSubTopic>gazebo/command/twist</commandSubTopic>
       <enableSubTopic>enable</enableSubTopic>
@@ -275,8 +275,8 @@ Copyright (c) 2024 Bitcraze
       </rotorConfiguration>
     </plugin>
     <plugin
-      filename="gz-sim-odometry-publisher-system"
-      name="gz::sim::systems::OdometryPublisher">
+      filename="libignition-gazebo-odometry-publisher-system.so"
+      name="ignition::gazebo::systems::OdometryPublisher">
       <dimensions>3</dimensions>
     </plugin>
   </model>
